@@ -1,18 +1,13 @@
 <!DOCTYPE HTML>
-<!--
-	Highlights by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
-		<title>Highlights by HTML5 UP</title>
+		<title>Thapar Connect</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><script src="<?php echo base_url();?>assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="<?php echo base_url('assets/css/main.css');?>" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="<?php echo base_url();?>assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="<?php echo base_url();?>assets/css/ie9.css" /><![endif]-->
 	</head>
 	<body>
 
@@ -32,7 +27,7 @@
 		<!-- One -->
 			<section id="one" class="main special">
 				<div class="container">
-					<span class="image fit primary"><img src="images/pic01.jpg" alt="" /></span>
+					<span class="image fit primary"><img src="<?php echo base_url();?>images/pic01.jpg" alt="" /></span>
 					<div class="content">
 						<header class="major">
 							<h2>Who I am</h2>
@@ -46,7 +41,7 @@
 		<!-- Two -->
 			<section id="two" class="main special">
 				<div class="container">
-					<span class="image fit primary"><img src="images/pic02.jpg" alt="" /></span>
+					<span class="image fit primary"><img src="<?php echo base_url();?>images/pic02.jpg" alt="" /></span>
 					<div class="content">
 						<header class="major">
 							<h2>Stuff I do</h2>
@@ -78,7 +73,7 @@
 		<!-- Three -->
 			<section id="three" class="main special">
 				<div class="container">
-					<span class="image fit primary"><img src="images/pic03.jpg" alt="" /></span>
+					<span class="image fit primary"><img src="<?php echo base_url();?>images/pic03.jpg" alt="" /></span>
 					<div class="content">
 						<header class="major">
 							<h2>One more thing</h2>
@@ -389,21 +384,21 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 							<h5>Fit</h5>
 							<div class="box alt">
 								<div class="row uniform 50%">
-									<div class="12u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+									<div class="12u"><span class="image fit"><img src="<?php echo base_url();?>images/pic04.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="<?php echo base_url();?>images/pic04.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="<?php echo base_url();?>images/pic04.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="<?php echo base_url();?>images/pic04.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="<?php echo base_url();?>images/pic04.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="<?php echo base_url();?>images/pic04.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="<?php echo base_url();?>images/pic04.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="<?php echo base_url();?>images/pic04.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="<?php echo base_url();?>images/pic04.jpg" alt="" /></span></div>
+									<div class="4u"><span class="image fit"><img src="<?php echo base_url();?>images/pic04.jpg" alt="" /></span></div>
 								</div>
 							</div>
 							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span class="image left"><img src="<?php echo base_url();?>images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span class="image right"><img src="<?php echo base_url();?>images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
 						</section>
 
 					</div>
@@ -446,13 +441,13 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</section>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
+			<script src="<?php echo base_url();?>assets/js/jquery.min.js"></script>
+			<script src="<?php echo base_url();?>assets/js/jquery.scrollex.min.js"></script>
+			<script src="<?php echo base_url();?>assets/js/jquery.scrolly.min.js"></script>
+			<script src="<?php echo base_url();?>assets/js/skel.min.js"></script>
+			<script src="<?php echo base_url();?>assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="<?php echo base_url();?>assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="<?php echo base_url();?>assets/js/main.js"></script>
 
 	</body>
 </html>
