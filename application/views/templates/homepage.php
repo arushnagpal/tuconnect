@@ -14,8 +14,8 @@
 		<!-- Header -->
 			<section id="header">
 				<header class="major">
-					<h1>Highlights</h1>
-					<p>A fun little { responsive } single pager by <a href="http://html5up.net">HTML5 UP</a></p>
+					<h1>Thapar Connect</h1>
+					<p>Share Projects, Notes and collaborate with your Faculty as well as Alumni.</a></p>
 				</header>
 				<div class="container">
 					<ul class="actions">

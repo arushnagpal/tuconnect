@@ -23,7 +23,6 @@ class Welcome extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->database();
-		$this->load->library('form_validation');
 		$this->load->helper('url');
 	}
 	public function index()
