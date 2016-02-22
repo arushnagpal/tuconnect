@@ -19,7 +19,9 @@
 				</header>
 				<div class="container">
 					<ul class="actions">
-						<li><a href="#one" class="button special scrolly">Begin</a></li>
+						<li><a href="#one" class="button special scrolly">Login</a></li>
+						<li><a href="#one" class="button special scrolly">Sign Up</a></li>
+						<li><a href="#one" class="button special scrolly">Contact us</a></li>
 					</ul>
 				</div>
 			</section>
@@ -85,7 +87,7 @@
 			</section>
 
 		<!-- Four -->
-		<!--
+		
 			<section id="four" class="main">
 				<div class="container">
 					<div class="content">
@@ -405,7 +407,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<a href="#footer" class="goto-next scrolly">Next</a>
 				</div>
 			</section>
-		-->
+		
 
 		<!-- Footer -->
 			<section id="footer">
